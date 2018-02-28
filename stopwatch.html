@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <link rel="stylesheet"
+		  type="text/css"
+		  href="bootstrap.css"
+	      />
+
+	<link rel="stylesheet"
+		  type="text/css"
+		  href="stopwatch.css"
+	      />	
+    <title>Stopwatch</title>
+</head>
+<body>
+    <section>
+    <h1>Stop Watch Demo</h1>
+    <br><br>
+    <div class="well">
+    <h2 id="timer"></h2>
+    <div class="row">
+   <div class="col-md-3"><button onclick="startTimer()">Start/Stop</button> <button onclick="reset()">Reset</button> <button onclick="record()">Record Times</button></div>
+   </div>
+   </div>
+    <h3>Past Times</h3>
+    <section id="pasttimes"></section>
+    </section>
+    <script src="stopwatch.js"></script>
+</body>
+</html>
